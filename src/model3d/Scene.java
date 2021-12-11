@@ -5,15 +5,15 @@ import java.util.List;
 
 public class Scene {
 
-    private final List<Solid> solids;
+    private final List<Solid> solids = new ArrayList<>();
 
-    public Scene() {
-        this(new ArrayList<>());
-    }
+//    public Scene() {
+//        this(new ArrayList<>());
+//    }
 
-    public Scene(List<Solid> solids) {
-        this.solids = solids;
-    }
+//    public Scene(List<Solid> solids) {
+//        this.solids = solids;
+//    }
 
     public List<Solid> getSolids() {
         return solids;
